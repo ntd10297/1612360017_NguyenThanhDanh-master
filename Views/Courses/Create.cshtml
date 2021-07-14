@@ -1,15 +1,15 @@
 ﻿@Model 1612360017_NguyenThanhDanh.Models.Course
-@model 1612360017_NguyenThanhDanh.ViewModels.CourseViewModel
+@model 1612360017_NguyenThanhDanh.ViewModels.CourseViewModels
 
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!--bị lỗi -->
+<!--bị lỗi    -->
 <h2>Create</h2>
 <form>
     <div class="form-group">
-        @Html.LabelFor(m =>  m.Place)
+        @Html.LabelFor(m => m.Place)
         @Html.TextBoxFor(m => m.Place, new { @class = "for-control" })
     </div>
 
